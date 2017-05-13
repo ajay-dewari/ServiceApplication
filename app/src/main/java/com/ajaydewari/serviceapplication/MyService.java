@@ -28,7 +28,7 @@ public class MyService extends Service {
         new Thread(new Runnable() {
             @Override
             public void run() {
-
+            generateRandomNum();
             }
         });
         return START_STICKY;
