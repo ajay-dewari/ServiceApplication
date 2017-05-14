@@ -41,7 +41,6 @@ private void generateRandomNum(){
 }
 
 private int getRandomNumber(){
-
         return randomNumber;
     }
 }
